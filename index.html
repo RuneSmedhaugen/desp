@@ -25,21 +25,26 @@
 
 <script>
 
-
-
-
-
-
-// ***DETTE ER BARE GAMMEL KODE JEG IKKE GIDDER Å FJERNE***
     function desptekst() { 
-let randomNum = Math.floor(Math.random() * 3);
+let randomNum = Math.floor(Math.random() * 6);
 if(randomNum == 0){
     document.getElementById("despdiv").innerHTML =`
     <h1>Deeeeeeeeeeeesp</h1>
     <img src= "https://as1.ftcdn.net/v2/jpg/00/75/70/90/1000_F_75709086_voyuNaY7MI2dW92VoVwYdN88eDQDYswK.jpg">
     `}
 
-else if(randomNum == 1){document.getElementById("despdiv").innerHTML =`Jævli kåt`}
+else if(randomNum == 1){document.getElementById("despdiv").innerHTML =`<h1>SULTEN!</h1>`}
+
+else if(randomNum == 2){document.getElementById("despdiv").innerHTML =`Jævli kåt
+<img scr = "https://scontent.fsvg1-1.fna.fbcdn.net/v/t31.18172-8/1524201_10151779032215919_697492940_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7a1959&_nc_ohc=BMi5qIBbSeAAX8UTx-Y&_nc_ht=scontent.fsvg1-1.fna&oh=00_AfC70kxhMIAg9S9xoYVFZWRN2lFFVWylDroUQrhR-XO-oQ&oe=65EEC0D1"
+`}
+
+else if(randomNum == 3){document.getElementById("despdiv").innerHTML =`Grinete på Anette uten god grunn
+<img src= "https://therestlessraven.files.wordpress.com/2016/03/grumpycat.jpg"
+`}
+
+else if(randomNum == 4){document.getElementById("despdiv").innerHTML =` mhm
+<img src= "https://media1.tenor.com/m/CpshCoTkCnoAAAAd/hurt-feelings-ulrik.gif"`}
 
 else{document.getElementById("despdiv").innerHTML =`Kald som faen`}
 
